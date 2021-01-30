@@ -8,16 +8,8 @@ feed_filename = "rss.xml"
 taxonomies = [
 	{ name = "categories", feed = true, paginate_by = 10 },
 	{ name = "tags", fees = true, paginate_by = 10 },
-	{name = "authors", feed = true},
-    {name = "auteurs", lang = "fr"},
-    {name = "tags"},
-    {name = "tags", lang = "fr"},
 ]
-
-languages = [
- {code = "fr", feed = true},
- {code = "it", feed = false, search = true },
-]
+languages = []
 compile_sass = true
 build_search_index = true
 ignored_content = []
