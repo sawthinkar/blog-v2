@@ -17,6 +17,6 @@ jobs:
       uses: shalzz/zola-deploy-action@v0.12.0
       env:
         # Target branch
-        PAGES_BRANCH: gh-pages
+        PAGES_BRANCH: main
         # Provide personal access token
-        TOKEN: 7cac3ec44e345e70e4f8e422fa8edfadfd3f96f9 
+        TOKEN: d536eee5250520984c618cd8814722b3660a1577 
