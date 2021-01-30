@@ -1,0 +1,22 @@
+# This is a basic workflow to help you get started with Actions
+
+# <https://www.getzola.org/documentation/deployment/github-pages/>
+
+# On every push this script is executed
+on: push
+name: Build zola
+jobs:
+  build:
+    name: sawthinkar/blog-v2
+    runs-on: ubuntu-latest
+    steps:
+    # Checkout
+    - uses: actions/checkout@master
+    # Build & deploy
+    - name: sawthinkar/blog-v2
+      uses: sawthinkar/blog-v2@v0.12.0
+      env:
+        # Target branch
+        PAGES_BRANCH: main
+        # Provide personal access token
+        TOKEN: 7cac3ec44e345e70e4f8e422fa8edfadfd3f96f9 
