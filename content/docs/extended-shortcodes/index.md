@@ -27,7 +27,7 @@ To put a flowchart in your post use below snippet
 **Code**
 
 ```
-{%/* mermaid() */%}
+{% /* mermaid() */ %}
 graph TD;
     A-->B;
     A-->C;
