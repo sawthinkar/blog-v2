@@ -14,9 +14,9 @@ jobs:
     - uses: actions/checkout@master
     # Build & deploy
     - name: sawthinkar/blog-v2
-      uses: sawthinkar/blog-v2@main
+      uses: sawthinkar/blog-v2@master
       env:
         # Target branch
-        PAGES_BRANCH: main
+        PAGES_BRANCH: master
         # Provide personal access token
         TOKEN: d536eee5250520984c618cd8814722b3660a1577 
